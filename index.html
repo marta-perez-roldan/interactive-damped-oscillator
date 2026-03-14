@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Damped Oscillator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Interactive Damped Oscillator</h1>
+    <p class="subtitle">
+      Mini simulador visual de un oscilador amortiguado.
+    </p>
 
+    <section class="controls">
+      <label>
+        Amplitud:
+        <input id="amplitude" type="range" min="20" max="180" value="120" />
+      </label>
+
+      <label>
+        Amortiguamiento:
+        <input id="damping" type="range" min="0" max="0.1" step="0.005" value="0.02" />
+      </label>
+
+      <label>
+        Frecuencia:
+        <input id="frequency" type="range" min="0.5" max="5" step="0.1" value="2" />
+      </label>
+
+      <button id="resetBtn">Reset</button>
+    </section>
+
+    <canvas id="oscillatorCanvas" width="900" height="350"></canvas>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
