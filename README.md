@@ -1,16 +1,19 @@
 # Interactive Damped Oscillator
 
-Mini simulador interactivo de un oscilador amortiguado para visualizar cómo cambian las trayectorias al modificar parámetros físicos.
+Mini simulador interactivo de un oscilador amortiguado para mi portfolio técnico.
 
-## Demo
-Próximamente
+## Objetivo
+Visualizar cómo cambia el movimiento de un oscilador al modificar parámetros físicos básicos.
 
 ## Tecnologías
 - HTML
 - CSS
 - JavaScript
 
-## Qué muestra
-- desplazamiento temporal
-- efecto del amortiguamiento
-- cambio de parámetros en tiempo real
+## Qué quiero mostrar
+- Cambio del desplazamiento con el tiempo
+- Efecto del amortiguamiento
+- Ajuste interactivo de parámetros
+
+## Estado
+En construcción
